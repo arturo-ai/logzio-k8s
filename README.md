@@ -1,5 +1,4 @@
 This is a Logz.io Fluentd solution for Kubernetes.
-# Test
 ## Fluentd DaemonSet
 
 For Kubernetes, a DaemonSet ensures that some or all nodes run a copy of a pod. To collect logs, we'll use a Fluentd DaemonSet. Fluentd is flexible enough and has the proper plugins to distribute logs to different third parties, like Logz.io.
